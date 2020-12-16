@@ -14,6 +14,7 @@ let final = getFullName("Arti", "Gupta");
 
 let expected = "ArtiGupta";
 
+let final = getFullName("Arti", "Gupta");
 if (result !== expected) {
   throw new Error(`${result} is not equal to ${expected}`);
 }
